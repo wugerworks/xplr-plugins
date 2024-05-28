@@ -2,12 +2,14 @@
   imports = [
     inputs.flake-parts.flakeModules.easyOverlay
   ];
-  perSystem = {config, pkgs, ...}: let
-    mkOverlayAttr = value: pkgs.callPackage value; 
-    generated = import ./sources/generated.nix;
-  in {
-    overlayAttrs.xplr-plugins = builtins.mapAttrs mkOverlayAttr generated {
-        inherit (pkgs) fetchurl fetchgit fetchFromGitHub dockerTools;
-      };
+  perSystem = {config, pkgs, ...}: 
+  {
+    overlayAttrs = {
+      xplr-plugins = builtins.mapAttrs (_: p: p.src) (
+          (import ./sources/generated.nix) {
+            inherit (pkgs) fetchurl fetchgit fetchFromGitHub dockerTools;
+          }
+        );
+    };
   };
 }
