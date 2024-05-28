@@ -3,7 +3,7 @@
     inputs.flake-parts.flakeModules.easyOverlay
   ];
   perSystem = {config, pkgs, ...}: let
-    mkOverlayAttr = name: value: pkgs.callPackage value; 
+    mkOverlayAttr = value: pkgs.callPackage value; 
     generated = import ./sources/generated.nix;
   in {
     overlayAttrs.xplr-plugins = builtins.mapAttrs mkOverlayAttr generated {
