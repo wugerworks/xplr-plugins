@@ -1,0 +1,62 @@
+## Extension
+[context-switch-xplr]
+src.git = "https://github.com/igorepst/context-switch.xplr.git"
+fetch.github = "igorepst/context-switch.xplr"
+
+[offline-docs-xplr]
+src.git = "https://github.com/sayanarijit/offline-docs.xplr.git"
+fetch.github = "sayanarijit/offline-docs.xplr"
+
+[tri-pane-xplr]
+src.git = "https://github.com/sayanarijit/tri-pane.xplr.git"
+fetch.github = "sayanarijit/tri-pane.xplr"
+
+[type-to-nav-xplr]
+src.git = "https://github.com/sayanarijit/type-to-nav.xplr.git"
+fetch.github = "sayanarijit/type-to-nav.xplr"
+
+[wl-clipboard-xplr]
+src.git = "https://github.com/sayanarijit/wl-clipboard.xplr.git"
+fetch.github = "sayanarijit/wl-clipboard.xplr"
+
+[xclip-xplr]
+src.git = "https://github.com/sayanarijit/xclip.xplr"
+fetch.github = "sayanarijit/xclip.xplr"
+
+[style-xplr]
+src.git = "https://github.com/emsquid/style.xplr.git"
+fetch.github = "emsquid/style.xplr"
+
+## Integration
+[dragon-xplr]
+src.git = "https://github.com/sayanarijit/dragon.xplr.git"
+fetch.github = "sayanarijit/dragon.xplr"
+
+[dua-cli-xplr]
+src.git = "https://github.com/sayanarijit/dua-cli.xplr.git"
+fetch.github = "sayanarijit/dua-cli.xplr"
+
+[fzf-xplr]
+src.git = "https://github.com/sayanarijit/fzf.xplr.git"
+fetch.github = "sayanarijit/fzf.xplr"
+
+[ouch-xplr]
+src.git = "https://github.com/dtomvan/ouch.xplr.git"
+fetch.github = "dtomvan/ouch.xplr"
+
+[scp-xplr]
+src.git = "https://github.com/sayanarijit/scp.xplr.git"
+fetch.github = "sayanarijit/scp.xplr"
+
+[zoxide-xplr]
+src.git = "https://github.com/sayanarijit/zoxide.xplr.git"
+fetch.github = "sayanarijit/zoxide.xplr"
+
+## Theme
+[icons-xplr]
+src.git = "https://github.com/prncss-xyz/icons.xplr.git"
+fetch.github = "prncss-xyz/icons.xplr"
+
+[extra-icons-xplr]
+src.git = "https://github.com/dtomvan/extra-icons.xplr.git"
+fetch.github = "dtomvan/extra-icons.xplr"
